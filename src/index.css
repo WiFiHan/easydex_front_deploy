@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dexname {
+  @apply w-16 px-2 py-1 items-center rounded-2xl bg-dexname/80 text-yellow-50 text-center shadow-xl;
+}
+
+.economyname {
+  @apply w-16 px-2 py-1 items-center rounded-2xl bg-economy_tag/80 text-yellow-50 text-center shadow-xl;
+}
+
+.dextag {
+  @apply w-14 h-7 mx-2 my-2 items-center rounded-[5px] bg-gradient-to-b from-dexname/80 text-yellow-50 text-center shadow-xl;
+}
+
+.economytag {
+  @apply w-14 h-7 mx-2 my-2 items-center rounded-[5px] bg-gradient-to-b from-economy_tag/80 text-yellow-50 text-center shadow-xl;
+}
+
+.smallblock {
+  @apply w-[280px] h-[280px] rounded-[5px] px-3 py-3 shadow-xl;
+}
+
+.bigblock {
+  @apply w-[750px] h-[550px] rounded-[5px] px-10 py-8 shadow-xl;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

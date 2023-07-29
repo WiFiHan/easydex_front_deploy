@@ -1,0 +1,74 @@
+@tailwind utilities;
+
+.App {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.main-input {
+  width: 200px;
+}
+
+@media (min-width: 600px) {
+  .main-input {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-input {
+    width: 800px;
+  }
+}
+
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.imsisquare {
+  width: 270px !important;
+  height: 270px !important;
+  border-radius: 10% !important;
+  border: 1px solid black !important;
+  background-color: white !important;
+  margin: 8px 5px !important;
+  color: blue !important;
+}
+
+.mainBlocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.dexlist {
+  padding: 50px 0;
+  max-width: 2000px;
+  width: 100%;
+}
+
+.dexlist-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mainPageLogo {
+  width: 100%;
+  max-width: 300px;
+  margin: 50px auto;
+}
